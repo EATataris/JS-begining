@@ -1,0 +1,42 @@
+#shop {
+    max-width: 1366px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.basket {
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+
+.catalogue {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.buyButton {
+    color: #000;
+    text-decoration: none;
+    background: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 50px;
+    display: inline-block;
+}
+
+.buyButton:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
