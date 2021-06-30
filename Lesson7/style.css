@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#shop {
+    max-width: 1366px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.basket {
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+
+.catalogue {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.buyButton {
+    color: #000;
+    text-decoration: none;
+    background: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 50px;
+    display: inline-block;
+}
+
+.buyButton:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.basketLink {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    background: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 50px;
+    display: inline-block;
+}
+
+.basketLink:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+#popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-y: scroll;
+    padding: 60px 15px;
+}
+
+/*#popup:target {
+    display: flex;
+    z-index: 1000;
+}*/
+
+.basketContent {
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 5px 15px black;
+}
+
+.basketH1 {
+    box-sizing: border-box;
+}
+
+.modalProducts {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.deleteButton {
+    color: #000;
+    text-decoration: none;
+    background: aqua;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 2px;
+    display: inline-block;
+}
+
+.deleteButton:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.closeButton {
+    background: #ff0000;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+}
+
+.closeButton:hover {
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+
+.basketContent2 {
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 5px 15px black;
+    display: none;
+}
